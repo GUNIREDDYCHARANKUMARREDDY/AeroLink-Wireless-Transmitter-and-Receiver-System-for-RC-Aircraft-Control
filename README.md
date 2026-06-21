@@ -4,7 +4,7 @@
 
 AeroLink is a custom-built long-range wireless transmitter and receiver system developed using ESP32 and SX1278 LoRa (433 MHz) modules. The system enables reliable wireless control of RC aircraft, drones, rovers, and robotic platforms.
 
-The transmitter reads joystick inputs, displays real-time control information on a TFT display, and sends commands wirelessly through LoRa communication. The receiver processes incoming commands and controls servos, ESCs, and DC motors while providing failsafe protection against signal loss.
+The transmitter reads joystick inputs, displays real-time control information on a TFT display, and sends commands wirelessly through LoRa communication. The receiver processes incoming commands and controls servos and ESCs while providing failsafe protection against signal loss.
 
 ---
 
