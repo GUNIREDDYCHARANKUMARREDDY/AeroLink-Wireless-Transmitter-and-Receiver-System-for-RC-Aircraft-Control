@@ -74,8 +74,7 @@ The transmitter reads joystick inputs, displays real-time control information on
 | SX1278 LoRa Module     |
 | Servo 1 Control        |
 | Servo 2 Control        |
-| ESC Control            |
-| DC Motor Control       |
+| ESC's Control          |         |
 +------------------------+
 ```
 
