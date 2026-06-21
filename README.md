@@ -24,7 +24,7 @@ The transmitter reads joystick inputs, displays real-time control information on
 
 ---
 
-## 🛠 Hardware Components
+##  Hardware Components
 
 ### Transmitter Unit
 - ESP32 Development Board
@@ -34,6 +34,8 @@ The transmitter reads joystick inputs, displays real-time control information on
 - Antenna
 - Power Switch
 - Perfboard PCB
+- Rechargeable battery
+- Charging Module
 
 ### Receiver Unit
 - ESP32 Development Board
@@ -47,7 +49,7 @@ The transmitter reads joystick inputs, displays real-time control information on
 
 ##  Project Hardware
 
-![AeroLink System](AeroLink.jpg)
+![AeroLink System](AeroLink.jpeg)
 
 ---
 
@@ -207,7 +209,7 @@ Install the following libraries:
 ---
 
 
-## 🎯 Applications
+##  Applications
 
 - RC Aircraft
 - RC Cars
