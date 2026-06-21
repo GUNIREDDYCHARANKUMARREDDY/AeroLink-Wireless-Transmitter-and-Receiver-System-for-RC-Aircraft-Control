@@ -1,6 +1,6 @@
 # AeroLink - Wireless Transmitter and Receiver System for RC Aircraft Control
 
-## 📌 Project Overview
+##  Project Overview
 
 AeroLink is a custom-built long-range wireless transmitter and receiver system developed using ESP32 and SX1278 LoRa (433 MHz) modules. The system enables reliable wireless control of RC aircraft, drones, rovers, and robotic platforms.
 
@@ -8,7 +8,7 @@ The transmitter reads joystick inputs, displays real-time control information on
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Long-range wireless communication using LoRa (433 MHz)
 - ESP32-based transmitter and receiver
@@ -17,8 +17,7 @@ The transmitter reads joystick inputs, displays real-time control information on
 - Dual joystick control
 - Control of:
   - 2 Servo Motors
-  - 1 ESC (Electronic Speed Controller)
-  - 1 DC Motor
+  - 2 ESC (Electronic Speed Controller)
 - Signal-loss failsafe protection
 - Portable and low-cost design
 - Suitable for RC aircraft and robotic applications
@@ -41,15 +40,14 @@ The transmitter reads joystick inputs, displays real-time control information on
 - SX1278 LoRa Module (433 MHz)
 - Antenna
 - Servo Motors
-- ESC
-- DC Motor
+- ESC's
 - Power Supply
 
 ---
 
-## 📷 Project Hardware
+##  Project Hardware
 
-![AeroLink System](images/AeroLink.jpg)
+![AeroLink System](AeroLink.jpg)
 
 ---
 
@@ -96,9 +94,9 @@ The transmitter reads joystick inputs, displays real-time control information on
 
 | Control Input | Function |
 |--------------|----------|
-| Left Joystick X | Throttle |
-| Left Joystick Y | Servo 1 |
-| Right Joystick Y | Servo 2 |
+| Left Joystick Y | Throttle |
+| Right Joystick Y | Servo 1 |
+| Right Joystick X | Servo 2 |
 
 ---
 
@@ -131,13 +129,12 @@ The receiver performs the following tasks:
 - Receives LoRa packets
 - Parses control data
 - Updates servo positions
-- Generates PWM for ESC
-- Generates PWM for DC motor
+- Generates PWM for ESC's
 - Activates failsafe during signal loss
 
 ---
 
-## 🛡 Failsafe Protection
+##  Failsafe Protection
 
 To ensure safe operation, the receiver continuously monitors communication.
 
@@ -149,8 +146,7 @@ If no valid packet is received for more than:
 
 The receiver automatically:
 
-- Stops ESC output
-- Stops DC motor output
+- Stops ESC's output
 
 This prevents uncontrolled movement when communication is lost.
 
@@ -191,12 +187,12 @@ This prevents uncontrolled movement when communication is lost.
 |------------|------|
 | Servo 1 | 25 |
 | Servo 2 | 33 |
-| ESC Output | 14 |
-| DC Motor PWM | 12 |
+| ESC 1 Output | 14 |
+| ESC 2 Output | 12 |
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 
 ### Arduino IDE
 
@@ -210,30 +206,10 @@ Install the following libraries:
 
 ---
 
-## 📂 Repository Structure
-
-```text
-AeroLink/
-│
-├── Transmitter/
-│   └── transmitter.ino
-│
-├── Receiver/
-│   └── receiver.ino
-│
-├── images/
-│   └── AeroLink.jpg
-│
-├── LICENSE
-└── README.md
-```
-
----
 
 ## 🎯 Applications
 
 - RC Aircraft
-- UAV Prototypes
 - RC Cars
 - RC Boats
 - Ground Rovers
@@ -243,7 +219,7 @@ AeroLink/
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - RSSI Monitoring
 - Battery Telemetry
@@ -260,16 +236,7 @@ AeroLink/
 
 **Guni Reddy Charan Kumar Reddy**
 
-B.Tech – Electronics and Communication Engineering  
-G. Pullaiah College of Engineering and Technology
-
-### Skills
-- Embedded Systems
-- ESP32 Development
-- LoRa Communication
-- Arduino Programming
-- IoT Systems
-- RC Control Systems
+Embedded Developer
 
 ---
 
